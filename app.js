@@ -35,7 +35,6 @@ TicTacToe.prototype.drawBoard = function() {
   console.log(this.board[0], this.board[1], this.board[2])
   console.log(this.board[3], this.board[4], this.board[5])
   console.log(this.board[6], this.board[7], this.board[8])
-
 }
 
 TicTacToe.prototype.togglePlayer = function() {
@@ -80,6 +79,5 @@ TicTacToe.prototype.playGame = function () {
     
 }
 
-
-let ttt = new TicTacToe(); 
-ttt.playGame(); 
+let game = new TicTacToe(); 
+game.playGame(); 
